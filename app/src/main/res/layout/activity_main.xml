@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.benny.cookappfinal.MainActivity">
+
+
+    <Button
+        android:id="@+id/button_snz"
+        android:layout_width="97dp"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="48dp"
+        android:textSize="12sp"
+        android:text="Suche nach zutaten" />
+
+    <Button
+        android:id="@+id/button_snn"
+        android:layout_width="97dp"
+        android:layout_height="91dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button_snz"
+        android:layout_marginEnd="69dp"
+        android:textSize="12sp"
+        android:text="Suche nach Name" />
+
+    <Button
+        android:id="@+id/button_zr"
+        android:layout_width="97dp"
+        android:layout_height="91dp"
+        android:layout_alignStart="@+id/button_snz"
+        android:layout_below="@+id/button_snz"
+        android:layout_marginTop="50dp"
+        android:textSize="12sp"
+        android:text="Zufälliges Rezept" />
+
+    <Button
+        android:id="@+id/button_me"
+        android:layout_width="97dp"
+        android:layout_height="91dp"
+        android:layout_alignStart="@+id/button_snn"
+        android:layout_alignTop="@+id/button_zr"
+        android:textSize="12sp"
+        android:text="Mein Einkauf" />
+
+    <Button
+        android:id="@+id/button_i"
+        android:layout_width="97dp"
+        android:layout_height="91dp"
+        android:layout_alignStart="@+id/button_zr"
+        android:layout_below="@+id/button_zr"
+        android:layout_marginTop="55dp"
+        android:text="Info"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button_im"
+        android:layout_width="97dp"
+        android:layout_height="91dp"
+        android:layout_alignStart="@+id/button_me"
+        android:layout_alignTop="@+id/button_i"
+        android:textSize="12sp"
+        android:text="Impressum" />
+
+
+</RelativeLayout>
